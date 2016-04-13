@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://phamhopcnc.blogspot.com' target='_blank'><img src='https://4.bp.blogspot.com/-YwZyEuAMTgw/VvyTBUBUeTI/AAAAAAAAAfE/a-UXSsdLPegax_SJUNmn4VTNU8UOWVe-A/s640/banner.png' width='500px'/>Máy cắt plasma cnc</a>. Toàn Đắc Lộc Co. LTD. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://www.maycatplasma.com.vn/tat-tan-tat-ve-may-cat-plasma-cnc--may-cat-cnc.3011.asp' target='_blank'><img src='https://4.bp.blogspot.com/-YwZyEuAMTgw/VvyTBUBUeTI/AAAAAAAAAfE/a-UXSsdLPegax_SJUNmn4VTNU8UOWVe-A/s640/banner.png' width='500px'/>Máy cắt plasma cnc</a>. Toàn Đắc Lộc Co. LTD. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
