@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>Bản quyền thuộc <a href='http://maycatplasma.com.vn'>http://maycatplasma.com.vn"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/>Bản quyền thuộc "+document.location.pathname;
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
