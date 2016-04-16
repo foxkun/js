@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>Bản quyền thuộc "+document.location.pathname;
+    var pagelink = "<br/><br/>Bản quyền thuộc Cơm Tấm 24h "/*"+document.location.pathname*/;
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
